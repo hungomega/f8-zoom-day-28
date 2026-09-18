@@ -1,74 +1,74 @@
-# 🎵 MUSIC PLAYER
+# F8 Zoom - Day 28: Music Player
 
-> Music Player được xây dựng bằng **HTML, CSS và JavaScript thuần**.
+Dự án xây dựng **Music Player** bằng HTML, CSS và JavaScript thuần, mô phỏng giao diện trình phát nhạc với các chức năng Play/Pause, Next, Previous, Random, Repeat, tua nhạc và Playlist.
 
----
+## 🚀 Demo
 
-## 📁 CẤU TRÚC THƯ MỤC
+- **GitHub:** https://github.com/hungomega/f8-zoom-day-28
+
+## 🛠️ Công nghệ sử dụng
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- HTML5 Audio API
+- Font Awesome
+- Google Fonts (Poppins)
+
+## 📁 Cấu trúc thư mục
 
 ```text
 f8-zoom-day-28/
-│
-├── 📁 img/
-│   └── 🖼️ img1.jpg
-│
-├── 📁 js/
-│   └── 📄 script.js
-│
-├── 📁 song/
-│   ├── 🎵 Âm Thầm Bên Em.mp3
-│   ├── 🎵 Ấn Nút Nhớ... Thả Giấc Mơ.mp3
-│   ├── 🎵 Buông Đôi Tay Nhau Ra.mp3
-│   ├── 🎵 Muộn Rồi Mà Sao Còn.mp3
-│   └── 🎵 Nơi Này Có Anh.mp3
-│
-├── 🌐 index.html
-├── 🎨 style.css
-└── 📖 README.md
-🚀 CHỨC NĂNG
-▶️ Play / Pause bài hát
-⏭️ Next – chuyển bài tiếp theo
-⏮️ Previous – chuyển bài trước
-🔀 Random – phát ngẫu nhiên
-🔁 Repeat – lặp lại bài hát
-📊 Thanh tiến trình hiển thị thời gian phát
-⏩ Kéo thanh tiến trình để tua nhạc
-🎵 Click trực tiếp vào bài hát trong Playlist
-🔄 Tự động chuyển bài khi bài hát kết thúc
-🎧 Hiển thị bài hát đang phát
-🟣 Highlight bài hát đang được chọn
-🛠️ CÔNG NGHỆ SỬ DỤNG
-HTML5
-CSS3
-JavaScript
-HTML5 Audio API
-Font Awesome
-Google Fonts – Poppins
-📌 KIẾN THỨC JAVASCRIPT ÁP DỤNG
-DOM Manipulation
-Event Handling
-Event Delegation
-querySelector() / querySelectorAll()
-classList
-dataset
-Array map() / join()
-Object
-Arrow Function
-this
-bind()
-HTML Audio API
-currentTime / duration
-play() / pause()
-Math.random()
-🎧 DANH SÁCH BÀI HÁT
-STT	Tên bài hát	Ca sĩ
-1	Âm Thầm Bên Em	Sơn Tùng M-TP
-2	Ấn Nút Nhớ... Thả Giấc Mơ	Sơn Tùng M-TP
-3	Buông Đôi Tay Nhau Ra	Sơn Tùng M-TP
-4	Muộn Rồi Mà Sao Còn	Sơn Tùng M-TP
-5	Nơi Này Có Anh	Sơn Tùng M-TP
-👨‍💻 AUTHOR
+├── img/                         # Hình ảnh sử dụng trong Music Player
+│   └── img1.jpg
+├── js/                          # JavaScript
+│   └── script.js
+├── song/                        # Danh sách file nhạc
+│   ├── Âm Thầm Bên Em.mp3
+│   ├── Ấn Nút Nhớ... Thả Giấc Mơ.mp3
+│   ├── Buông Đôi Tay Nhau Ra.mp3
+│   ├── Muộn Rồi Mà Sao Còn.mp3
+│   └── Nơi Này Có Anh.mp3
+├── index.html                   # Giao diện Music Player
+├── style.css                    # CSS giao diện
+└── README.md                    # Tài liệu dự án
 
-Nguyễn Hữu Hùng
+## 🎵 Chức năng
 
-F8 Zoom Day 28 – Music Player
+- **Play / Pause:** Phát hoặc tạm dừng bài hát
+- **Next:** Chuyển sang bài hát tiếp theo
+- **Previous:** Quay lại bài hát trước
+- **Random:** Phát bài hát ngẫu nhiên
+- **Repeat:** Lặp lại bài hát hiện tại
+- **Progress:** Hiển thị tiến trình phát nhạc
+- **Seek:** Kéo thanh progress để tua nhạc
+- **Playlist:** Click vào bài hát để phát
+- **Auto Next:** Tự động chuyển sang bài tiếp theo khi bài hát kết thúc
+- **Active Song:** Highlight bài hát đang được phát
+- **Playing Title:** Hiển thị tên bài hát hiện tại
+
+## 📌 Kiến thức JavaScript áp dụng
+
+- DOM Manipulation
+- Event Handling
+- Event Delegation
+- `querySelector()` / `querySelectorAll()`
+- `classList`
+- `dataset`
+- Array `map()` / `join()`
+- Object
+- Arrow Function
+- `this`
+- `bind()`
+- HTML5 Audio API
+- `currentTime` / `duration`
+- `play()` / `pause()`
+- `loop`
+- `Math.random()`
+
+## ⚙️ Cách chạy dự án
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/hungomega/f8-zoom-day-28.git

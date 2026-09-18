@@ -33,7 +33,7 @@ f8-zoom-day-28/
 ├── style.css                    # CSS giao diện
 └── README.md                    # Tài liệu dự án
 
-## 🎵 Chức năng
+# 🎵 Chức năng
 
 - **Play / Pause:** Phát hoặc tạm dừng bài hát
 - **Next:** Chuyển sang bài hát tiếp theo

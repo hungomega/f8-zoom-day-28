@@ -4,7 +4,7 @@ Dự án xây dựng **Music Player** bằng HTML, CSS và JavaScript thuần, m
 
 ## 🚀 Demo
 
-- **GitHub:** https://github.com/hungomega/f8-zoom-day-28
+- **GitHub:** https://hungomega.github.io/f8-zoom-day-28/
 
 ## 🛠️ Công nghệ sử dụng
 
